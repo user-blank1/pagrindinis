@@ -1,0 +1,50 @@
+body {
+     background: #f2e9d8;
+     font-family: 'Playwrite ES Deco Guides', serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     background-color: rgb(0, 0, 0, 0.2);
+     font-weight: 700;
+     text-transform: uppercase;
+     font-size: 2em;
+}
+
+body > table {
+     background-image: url(../images/desert.jpg);
+     background-size: cover;
+     background-repeat: no-repeat;
+     text-align: center;
+}
+
+td {
+     background-color: rgb(255, 255, 255, 0.6);
+}
+
+.langeliai {
+     background-color: rgb(0, 0, 0, 0.6);
+}
+
+#pirmas-paragrafas {
+     color: white;
+}
+
+a {
+     color: aqua;
+}
+
+a:hover {
+     color: red;
+}
+
+.tekstas {
+}
+
+.q {
+     text-align: justify;
+}
