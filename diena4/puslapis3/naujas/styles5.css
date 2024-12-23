@@ -1,0 +1,20 @@
+#q {
+     list-style-type: square;
+}
+
+#w {
+     margin-left: -15px;
+     list-style-type: none;
+}
+#w li::before {
+     content: '\2601';
+}
+
+#e {
+     list-style-type: upper-roman;
+     border-bottom: 2px solid silver;
+}
+
+#r {
+     list-style-type: none;
+}

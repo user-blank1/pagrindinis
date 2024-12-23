@@ -1,0 +1,27 @@
+body {
+     display: flex;
+     background-color: bisque;
+     justify-content: center;
+}
+
+table {
+     width: 400px;
+}
+
+tr {
+     background-color: white;
+     margin-top: 10px;
+     display: block;
+}
+table p {
+     text-align: center;
+}
+table td {
+     text-align: center;
+}
+table input {
+     background-color: rgb(141, 247, 255);
+     border: none;
+     border-radius: 10px;
+     padding: 10px;
+}
