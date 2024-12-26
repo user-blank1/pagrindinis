@@ -6,7 +6,8 @@
      margin-left: -15px;
      list-style-type: none;
 }
-#w li::before {
+
+ul#w > li::before {
      content: '\2601';
 }
 
