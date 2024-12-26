@@ -1,0 +1,25 @@
+body {
+     background-color: rgb(207, 188, 13);
+}
+
+#eilute1 {
+     background-color: rgb(219, 171, 97);
+}
+
+h1,
+h2,
+h3 {
+     color: rgb(100, 100, 100);
+}
+
+#t {
+     background-color: rgb(219, 171, 97);
+}
+
+.y {
+     color: red;
+}
+
+td.td h3 {
+     color: green;
+}
