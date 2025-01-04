@@ -1,0 +1,80 @@
+body {
+     background-color: black;
+}
+
+#mainwrap {
+     width: 675px;
+     height: 355px;
+     background-color: rgb(50, 50, 50);
+     margin: 0 auto;
+     position: relative;
+     top: 106px;
+     border-radius: 10px;
+}
+
+#speaker {
+     width: 195px;
+     height: 195px;
+     position: absolute;
+     top: 0px;
+     left: -30px;
+     margin: -50px;
+}
+
+#stars {
+     width: 160px;
+     height: 157px;
+     position: absolute;
+     margin: 0;
+     bottom: -30px;
+     right: -30px;
+}
+#textwrap {
+     margin: 0 auto;
+
+     width: 531px;
+     position: relative;
+     top: 50%;
+     transform: translateY(-50%);
+}
+#skills {
+     font-family: 'Inter';
+     font-weight: 600;
+     font-size: 48px;
+     line-height: 48px;
+     margin: 0;
+     color: white;
+     letter-spacing: 1.5px;
+}
+p {
+     font-family: 'Inter';
+     color: white;
+     font-size: 15px;
+     font-weight: 400;
+     margin: 0;
+     margin-top: 17px;
+}
+
+button {
+     margin-top: 17px;
+     background: none;
+     padding-right: 16px;
+     padding-left: 16px;
+     padding-top: 8px;
+     padding-bottom: 8px;
+     border: 2px solid #f17965;
+     color: #f17965;
+     font-family: 'Inter';
+     border-radius: 10px;
+     transition: 0.3s;
+}
+
+button:hover {
+     cursor: pointer;
+     background-color: #f17965;
+     color: white;
+}
+
+button:active {
+     background-color: black;
+}

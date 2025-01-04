@@ -1,0 +1,90 @@
+div {
+     height: 100vh;
+     width: 100%;
+     margin: 0;
+     position: relative;
+}
+body {
+     margin: 0;
+}
+
+p:not(#arrow) {
+     position: absolute;
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+     font-size: 128px;
+     font-family: 'inter';
+     margin: 0;
+}
+
+#pg2 {
+     background-color: green;
+}
+
+#pg3 {
+     background-color: purple;
+}
+
+#pg4 {
+     background-color: red;
+}
+
+#pg5 {
+     background-color: gray;
+}
+
+#arrow {
+     /* NEPAVYKO SUCENTRUOTI RODYKLES BALTAM FONE,REIKEJO PACIAM SU PADDING-BOTTOM*/
+     margin: 0;
+     position: fixed;
+     bottom: 30px;
+     transform: rotate(270deg);
+     font-size: 3em;
+     background-color: white;
+     border-radius: 30px;
+     right: 20px;
+     padding-bottom: 5px;
+     text-decoration: none;
+     color: black;
+}
+
+#arrow:hover {
+     background-color: rgb(200, 200, 200);
+     cursor: pointer;
+}
+#arrow:active {
+     background-color: black;
+     color: white;
+}
+
+#buttons {
+     position: absolute;
+     bottom: 10px;
+     left: 50%;
+     transform: translateX(-50%);
+}
+button {
+     background: 0;
+     width: 93px;
+     height: 42px;
+     border: 2px solid #f17965;
+     border-radius: 10px;
+}
+
+button:hover {
+     background-color: #f17965;
+}
+button:hover a {
+     color: white;
+}
+button:active {
+     background-color: black;
+}
+button a {
+     color: #f17965;
+     font-weight: 600;
+}
+a {
+     text-decoration: none;
+}
