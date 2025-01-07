@@ -3,78 +3,64 @@ body {
 }
 
 #mainwrap {
+     margin: 0 auto;
+     margin-top: 100px;
      width: 675px;
      height: 355px;
-     background-color: rgb(50, 50, 50);
-     margin: 0 auto;
+     background-color: rgb(36, 36, 36);
      position: relative;
-     top: 106px;
-     border-radius: 10px;
+     padding-top: 1px;
+}
+
+.images {
+     width: 200px;
+     position: absolute;
 }
 
 #speaker {
-     width: 195px;
-     height: 195px;
-     position: absolute;
-     top: 0px;
-     left: -30px;
-     margin: -50px;
+     top: -80px;
+     left: -80px;
 }
 
 #stars {
-     width: 160px;
-     height: 157px;
-     position: absolute;
-     margin: 0;
-     bottom: -30px;
-     right: -30px;
+     width: 100px;
+     bottom: -20px;
+     right: -20px;
 }
 #textwrap {
-     margin: 0 auto;
-
      width: 531px;
-     position: relative;
-     top: 50%;
-     transform: translateY(-50%);
+
+     margin: 0 auto;
+     margin-top: 65px;
 }
-#skills {
-     font-family: 'Inter';
-     font-weight: 600;
-     font-size: 48px;
-     line-height: 48px;
-     margin: 0;
+h1 {
+     text-align: left;
      color: white;
-     letter-spacing: 1.5px;
+     font-family: 'Inter';
 }
-p {
-     font-family: 'Inter';
+
+#textwrap p {
      color: white;
-     font-size: 15px;
-     font-weight: 400;
-     margin: 0;
-     margin-top: 17px;
+     font-family: 'Inter';
 }
 
 button {
-     margin-top: 17px;
+     padding: 6px;
+     border-radius: 8px;
      background: none;
-     padding-right: 16px;
-     padding-left: 16px;
-     padding-top: 8px;
-     padding-bottom: 8px;
-     border: 2px solid #f17965;
-     color: #f17965;
-     font-family: 'Inter';
-     border-radius: 10px;
-     transition: 0.3s;
+     color: orange;
+     border: 2px solid orange;
+     font-weight: 600;
 }
-
 button:hover {
+     background: white;
+     color: rgb(102, 0, 0);
+     border-color: red;
      cursor: pointer;
-     background-color: #f17965;
-     color: white;
+     font-weight: 600;
 }
-
 button:active {
-     background-color: black;
+     background: rgb(179, 86, 0);
+     color: white;
+     cursor: pointer;
 }
