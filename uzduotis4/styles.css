@@ -1,4 +1,4 @@
-div {
+div:not(#buttons) {
      height: 100vh;
      width: 100%;
      margin: 0;
@@ -31,31 +31,7 @@ p:not(#arrow) {
 }
 
 #pg5 {
-     background-color: gray;
-}
-
-#arrow {
-     /* NEPAVYKO SUCENTRUOTI RODYKLES BALTAM FONE,REIKEJO PACIAM SU PADDING-BOTTOM*/
-     margin: 0;
-     position: fixed;
-     bottom: 30px;
-     transform: rotate(270deg);
-     font-size: 3em;
-     background-color: white;
-     border-radius: 30px;
-     right: 20px;
-     padding-bottom: 5px;
-     text-decoration: none;
-     color: black;
-}
-
-#arrow:hover {
-     background-color: rgb(200, 200, 200);
-     cursor: pointer;
-}
-#arrow:active {
-     background-color: black;
-     color: white;
+     background-color: rgb(192, 192, 192);
 }
 
 #buttons {
@@ -63,6 +39,7 @@ p:not(#arrow) {
      bottom: 10px;
      left: 50%;
      transform: translateX(-50%);
+     white-space: nowrap;
 }
 button {
      background: 0;
@@ -87,4 +64,22 @@ button a {
 }
 a {
      text-decoration: none;
+}
+body {
+     position: relative;
+}
+#arrowup {
+     position: absolute;
+     bottom: 10px;
+     right: 10px;
+     font-size: 100px;
+     color: rgb(124, 124, 124);
+}
+
+#arrowup:hover {
+     color: rgb(56, 56, 56);
+     cursor: pointer;
+}
+#arrowup:active {
+     color: black;
 }
