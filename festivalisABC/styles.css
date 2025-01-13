@@ -1,0 +1,100 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span {
+     font-family: 'Raleway';
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     font-weight: 700;
+}
+
+.raleway-700 {
+     font-weight: 700;
+     font-size: 22px;
+}
+
+.navbar li {
+     font-family: 'Open Sans';
+     text-transform: uppercase;
+}
+.nav-item .nav-link.active {
+     color: rgb(255, 2, 2);
+}
+
+.button1 {
+     border: none;
+}
+
+.button1 {
+     box-shadow: 5px 5px 5px black;
+}
+
+.navbar li a:hover {
+     color: red !important;
+}
+.navbar li a:active {
+     color: rgb(97, 0, 0) !important;
+}
+
+.button1:first-child:hover {
+     background-color: rgb(73, 0, 0) !important;
+}
+.button1:first-child:active {
+     background-color: rgb(34, 0, 0) !important;
+}
+.button1:nth-child(2):hover {
+     background-color: rgb(124, 124, 124) !important;
+}
+.button1:nth-child(2):active {
+     background-color: rgb(39, 39, 39) !important;
+}
+#kaip-rasti {
+     background-color: rgb(253, 212, 219);
+}
+#footeris {
+     min-height: 100px;
+}
+.footerio-elementai {
+     color: rgb(83, 83, 83);
+}
+.footerio-elementai:hover {
+     color: rgb(0, 0, 0);
+}
+
+@media only screen and (max-width: 768px) {
+     #susisiektiforma {
+          width: 100% !important;
+     }
+}
+@media only screen and (max-width: 1023px) {
+     .button1 {
+          width: 35% !important;
+     }
+     .titlediv {
+          width: 100%;
+     }
+     #map {
+          width: 100%;
+     }
+     #susisiektiforma {
+          width: 75%;
+     }
+}
+
+@media only screen and (min-width: 1024px) {
+     #map {
+          width: 60%;
+     }
+     #susisiektiforma {
+          width: 50%;
+     }
+}
