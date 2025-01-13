@@ -1,0 +1,64 @@
+@media only screen and (min-width: 1023px) {
+     body {
+          padding-right: 100px;
+          padding-left: 100px;
+     }
+     .bg-danger {
+          margin-left: calc(-100px);
+          margin-right: calc(-100px);
+          overflow: hidden;
+     }
+}
+@media only screen and (max-width: 1023px) {
+     body {
+          padding-right: 30px;
+          padding-left: 30px;
+     }
+     .bg-danger {
+          margin-left: calc(-30px);
+          margin-right: calc(-30px);
+          overflow: hidden;
+     }
+}
+a,
+p,
+button {
+     font-family: 'Inter';
+}
+.navbar button .btn-danger {
+     font-size: 1.4em;
+     font-weight: 500;
+}
+.about-div {
+     background-color: antiquewhite;
+}
+
+#img1 {
+     border-top-left-radius: 10px;
+     border-bottom-left-radius: 10px;
+}
+
+#img2 {
+     border-top-right-radius: 10px;
+     border-bottom-right-radius: 10px;
+}
+
+.navbar-brand {
+     padding: 5px 15px;
+     background-color: red;
+     border-radius: 10px;
+     color: white;
+}
+
+.about {
+     width: 80%;
+}
+
+#trecias {
+     background-color: antiquewhite;
+     padding-bottom: 40px;
+}
+
+#customers {
+     height: auto;
+}
