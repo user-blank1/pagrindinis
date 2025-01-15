@@ -17,6 +17,7 @@
      .bg-danger {
           margin-left: calc(-30px);
           margin-right: calc(-30px);
+
           overflow: hidden;
      }
 }
