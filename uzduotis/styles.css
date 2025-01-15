@@ -1,0 +1,98 @@
+body {
+     padding: 0;
+     margin: 0;
+}
+
+.navbar-brand {
+     font-family: 'raleway';
+     font-weight: 700;
+     font-size: 22px;
+}
+
+p,
+button,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+     font-family: 'raleway';
+}
+
+#title-div {
+     left: 50%;
+     top: 50%;
+     transform: translate(-50%, -50%);
+}
+
+#img1 {
+     min-width: 850px;
+     width: 100%;
+     object-fit: cover;
+     object-position: center;
+}
+#butonai button {
+     font-weight: 600;
+}
+#btn2 {
+     background-color: white;
+     color: black;
+     border: none;
+}
+#btn2:hover {
+     background-color: rgb(114, 114, 114);
+     color: white;
+}
+#btn2:active {
+     background-color: black;
+}
+
+.galerija {
+     display: flex;
+}
+
+.nav-link.active {
+     color: red !important;
+}
+
+@media (min-width: 1024px) {
+     #butonai button {
+          min-width: 200px !important;
+     }
+     .galerija img {
+          width: 18.5%;
+     }
+     .galerija {
+          flex-wrap: nowrap;
+          margin-top: 15px;
+          justify-content: space-between;
+          padding-bottom: 15px;
+     }
+     iframe {
+          width: 70%;
+     }
+     .formfield {
+          width: 30%;
+     }
+}
+
+@media (max-width: 1023px) {
+     .galerija img {
+          width: 60%;
+          margin-top: 15px;
+     }
+
+     .galerija {
+          flex-wrap: wrap;
+          margin-top: 35px;
+          justify-content: center;
+     }
+     iframe {
+          width: 100%;
+     }
+     .formfield {
+          width: 90%;
+     }
+}
