@@ -95,4 +95,14 @@ h6 {
      .formfield {
           width: 90%;
      }
+     #butonai {
+          width: 135%;
+
+          display: flex;
+          justify-content: center;
+     }
+     #btn1,
+     #btn2 {
+          min-width: 45%;
+     }
 }
