@@ -1,0 +1,118 @@
+#col1 {
+     background-color: rgba(246, 244, 245, 1);
+     height: 800px;
+}
+body {
+     overflow-x: hidden;
+}
+#btn1 {
+     background-color: rgba(50, 41, 47, 1);
+     color: white;
+}
+#btn1:hover {
+     background-color: white;
+     color: black;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+button {
+     font-family: 'inter';
+}
+
+.btn2:hover {
+     color: white;
+     background-color: gray;
+}
+
+.btn2:active {
+     background-color: black !important;
+     color: white !important;
+}
+.heading-class {
+     font-weight: 200;
+     font-size: 40px;
+}
+@media (min-width: 1201px) {
+     #col1 {
+          align-items: center;
+     }
+     #divas1 {
+          width: 50%;
+          position: relative;
+          bottom: 100px;
+     }
+     #divas1 h1 {
+          font-size: 50px;
+     }
+     #btn1 {
+          width: 30%;
+          min-width: 100px;
+     }
+     #carouselExampleControls {
+          width: 115%;
+          min-width: 900px;
+          position: relative;
+          right: 150px;
+          top: 60px;
+     }
+     .second-div {
+          width: 600px;
+     }
+     .col2 {
+          flex-direction: column;
+          align-items: center;
+          justify-content: center;
+     }
+     .col2-divas {
+          width: 60%;
+     }
+     .btn2 {
+          width: 30%;
+          min-width: 150px;
+          background: none;
+     }
+     .img2 {
+          width: 100%;
+          position: relative;
+     }
+     .heading-class.qqq {
+          margin-top: 176px;
+     }
+}
+
+@media (max-width: 1200px) {
+     #carouselExampleControls {
+          width: 98%;
+     }
+     #main {
+          padding: 0px;
+     }
+     #col1 {
+          align-items: center;
+          justify-content: center;
+          max-height: 400px;
+     }
+     #col1 div {
+          width: 100%;
+          height: 100%;
+     }
+     #divas1 {
+          padding-left: 20px;
+          padding-right: 20px;
+          justify-content: space-around;
+     }
+     .img2 {
+          width: 100%;
+     }
+     .col2 {
+          align-items: center;
+          justify-content: center;
+     }
+}
