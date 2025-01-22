@@ -1,0 +1,188 @@
+body {
+     margin: 0;
+}
+#under-green-div p {
+     margin: 0;
+}
+#under-green-div {
+     background-color: aquamarine;
+     padding: 27px;
+}
+#main {
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     background-color: rgb(247, 197, 132);
+     padding: 10px;
+}
+
+.main-child {
+     background-color: rgb(243, 243, 231);
+     padding: 10px;
+}
+
+@media (max-width: 1023px) {
+     .green-div {
+          height: 50vh;
+          background-color: rgb(88, 189, 88);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+     h1 {
+          margin: 0;
+     }
+     .title {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+     #btndiv {
+          width: 100%;
+          display: flex;
+
+          justify-content: space-between;
+     }
+     button {
+          width: 48%;
+          padding: 5px;
+     }
+     #btn1 {
+          background-color: black;
+          color: white;
+     }
+     #btn2 {
+          background: none;
+          border: 2px solid black;
+     }
+
+     .navbar {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          height: 80px;
+          justify-content: space-around;
+
+          background-color: black;
+     }
+     .navbar h2 {
+          margin: 0;
+          color: white;
+     }
+     .navbar ul {
+          list-style-type: none;
+          display: flex;
+          justify-content: flex-start;
+          gap: 20px;
+          margin: 0;
+          padding: 0;
+          color: white;
+     }
+     #footer {
+          display: flex;
+          justify-content: center;
+          flex-wrap: wrap;
+          padding: 20px;
+          gap: 20px;
+          background-color: black;
+     }
+
+     #footer div {
+          text-align: center;
+          width: 51%;
+          border: 1px solid black;
+          color: white;
+     }
+     #footer ul {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          padding-right: 30px;
+     }
+     .main-child {
+          width: 85%;
+     }
+     #main {
+          gap: 30px;
+     }
+}
+
+@media (min-width: 1024px) {
+     .green-div {
+          height: 35vh;
+          background-color: rgb(88, 189, 88);
+          display: flex;
+          justify-content: center;
+          align-items: center;
+     }
+     h1 {
+          margin: 0;
+     }
+     .title {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+     }
+     #btndiv {
+          width: 100%;
+          display: flex;
+
+          justify-content: space-between;
+     }
+     button {
+          width: 48%;
+          padding: 5px;
+     }
+     #btn1 {
+          background-color: black;
+          color: white;
+     }
+     #btn2 {
+          background: none;
+          border: 2px solid black;
+     }
+
+     .navbar {
+          display: flex;
+          align-items: center;
+          height: 50px;
+          justify-content: space-between;
+          padding-right: 20px;
+          padding-left: 20px;
+          background-color: black;
+     }
+     .navbar h2 {
+          margin: 0;
+          color: white;
+     }
+     .navbar ul {
+          list-style-type: none;
+          display: flex;
+          gap: 20px;
+          margin: 0;
+          color: white;
+     }
+
+     #footer {
+          gap: 75px;
+          display: flex;
+          padding: 20px;
+          background-color: black;
+     }
+     body {
+          display: flex;
+          flex-direction: column;
+          min-height: 100vh;
+     }
+     #footer div {
+          width: 30%;
+          border: 1px solid black;
+          color: white;
+     }
+     #main {
+          gap: 30px;
+     }
+     .main-child {
+          width: 29%;
+     }
+}
