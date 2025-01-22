@@ -1,0 +1,177 @@
+body {
+     margin: 0;
+     padding: 0;
+}
+
+* {
+     font-family: 'Montserrat';
+}
+#navbaras a {
+     text-decoration: none;
+     font-weight: 800;
+     color: rgb(255, 255, 255);
+}
+#btn1 {
+     background-color: rgb(95, 6, 73);
+     height: 50%;
+     border-radius: 10px;
+     border: none;
+     padding: 10px 30px;
+     font-weight: bold;
+     color: white;
+}
+#btn1:hover {
+     background-color: purple;
+     cursor: pointer;
+     color: white;
+}
+#navbaras {
+     max-width: 100%;
+}
+#pirmas {
+     background-image: url('image.png');
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+#antras {
+     background-color: rgb(248, 76, 76);
+     padding: 70px 60px;
+}
+#antras-vidus {
+     display: flex;
+     justify-content: center;
+     gap: 20px;
+     background-color: bisque;
+     padding: 10px 25px;
+}
+#trecias-vidus {
+     display: flex;
+     gap: 30px;
+}
+#trecias {
+     background-color: bisque;
+}
+footer {
+     background-color: black;
+     padding: 15px;
+}
+#footerdiv {
+     display: flex;
+     align-items: center;
+}
+#footer-div2 {
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+}
+#footer-div3 {
+     display: flex;
+
+     gap: 15px;
+}
+@media (min-width: 1024px) {
+     #navbaras {
+          padding-right: 60px;
+          gap: 100px;
+          height: 90px;
+          display: flex;
+          justify-content: end;
+          align-items: center;
+          padding-top: 20px;
+          position: relative;
+     }
+     #img2 {
+          position: absolute;
+          left: 50px;
+     }
+     #pirmas {
+          height: 80vh;
+     }
+     #antras {
+          height: auto;
+     }
+     #antras-vidus {
+          flex-direction: row;
+     }
+
+     #trecias-vidus {
+          flex-direction: row;
+          justify-content: center;
+     }
+     #trecias {
+          padding: 60px;
+     }
+     #trecias-p {
+          width: 25%;
+          padding: 60px 35px;
+     }
+     #trecias-img {
+          width: 60%;
+     }
+     #trecias-img img {
+          width: 100%;
+          height: 100%;
+          object-fit: cover;
+     }
+     #footerdiv {
+          justify-content: space-between;
+          padding: 0px 100px;
+     }
+}
+
+@media (max-width: 1023px) {
+     #navbaras {
+          padding: 30px;
+          display: flex;
+          flex-direction: row;
+          flex-wrap: wrap;
+          justify-content: center;
+          align-items: center;
+          height: 45vh;
+     }
+     #navbaras #img2 {
+          display: flex;
+          justify-content: center;
+          flex-basis: 100%;
+          margin-bottom: 20px;
+     }
+     #navbaras .q {
+          text-align: center;
+          flex-basis: 50%;
+          margin-bottom: 20px;
+     }
+     #navbaras button {
+          max-width: 100px;
+          padding: 12px;
+          font-size: 16px;
+     }
+     #antras {
+          height: auto;
+          padding: 70px 30px;
+     }
+     #antras-vidus {
+          flex-direction: column;
+     }
+     #trecias {
+          padding: 70px 20px;
+     }
+     #trecias-vidus {
+          flex-direction: column;
+     }
+     #trecias img {
+          width: 100%;
+     }
+     #trecias-p {
+          padding: 20px;
+     }
+
+     #footerdiv {
+          flex-direction: column;
+     }
+     #footer-div3 {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+     }
+}

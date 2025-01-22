@@ -1,0 +1,25 @@
+body {
+     margin: 0;
+     padding: 0 0px;
+     background-color: rgba(212, 241, 230, 1);
+}
+* {
+     font-family: 'Montserrat';
+}
+@media (min-width: 1024px) {
+     body {
+          padding: 120px 150px;
+     }
+     #h1 {
+          font-size: 70px;
+     }
+}
+
+@media (max-width: 1023px) {
+     body {
+          padding: 30px 30px;
+     }
+     #h1 {
+          font-size: 30px;
+     }
+}
