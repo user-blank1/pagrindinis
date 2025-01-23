@@ -40,6 +40,8 @@ button {
      align-items: center;
 }
 .item {
+     padding-top: 15px;
+     padding-bottom: 15px;
      border: 2px solid white;
      display: flex;
      flex-direction: column;
