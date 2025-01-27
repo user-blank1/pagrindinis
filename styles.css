@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    font-family: "Plus Jakarta Sans";
+    color: rgba(27, 107, 237, 1);
+    font-weight: 700;
+}
+#section-1 {
+    background-image: url("imgs/lakes.png");
+    height: 95vh;
+    background-size: cover;
+}
+
+#btn1 {
+    background: linear-gradient(180deg, #8c9cf7, #2444f8);
+}
+
+#svgdiv img {
+    width: 100%;
+}
+#svgdiv {
+    width: 15%;
+}
+
+#btndiv button:hover {
+    background-color: rgb(224, 224, 224);
+}
+#btndiv button:active {
+    background-color: rgb(180, 180, 180);
+}
+#btndiv button {
+    width: fit-content;
+}
+@media (max-width: 1199px) {
+    #divas2 {
+        flex-direction: column;
+        align-items: center !important;
+    }
+    #divas2 img {
+        min-width: 70px;
+    }
+    .par {
+        text-align: center;
+    }
+
+    .col1 {
+        align-items: center;
+    }
+
+    .col1 h3 {
+        text-align: center;
+    }
+
+    #imgdiv1 {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    #imgdiv1 img {
+        width: 80%;
+    }
+
+    .col2 {
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media (min-width: 1200px) {
+    .col1 {
+        padding-right: 200px !important;
+        z-index: 2 !important;
+    }
+
+    #img1 {
+        position: relative;
+        right: 110px;
+        height: 85%;
+        width: 85%;
+        z-index: 3 !important;
+    }
+
+    #ltuimg {
+        top: 0;
+        left: -140px;
+        right: 0px;
+        bottom: 0;
+        z-index: 1 !important;
+    }
+    #ltuimg img {
+        position: relative !important;
+        z-index: -10 !important;
+    }
+}
