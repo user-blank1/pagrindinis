@@ -34,6 +34,12 @@ body {
 #btndiv button {
     width: fit-content;
 }
+#section-3 {
+    background-image: url("imgs/upe.png");
+    height: 90vh;
+    background-size: cover;
+}
+
 @media (max-width: 1199px) {
     #divas2 {
         flex-direction: column;
@@ -69,14 +75,17 @@ body {
         display: flex;
         justify-content: center;
     }
+    #ltuimg {
+        display: none;
+    }
 }
 
 @media (min-width: 1200px) {
     .col1 {
         padding-right: 200px !important;
         z-index: 2 !important;
+        background-color: white;
     }
-
     #img1 {
         position: relative;
         right: 110px;
@@ -91,9 +100,5 @@ body {
         right: 0px;
         bottom: 0;
         z-index: 1 !important;
-    }
-    #ltuimg img {
-        position: relative !important;
-        z-index: -10 !important;
     }
 }
