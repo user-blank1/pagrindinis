@@ -1,0 +1,89 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar a {
+    font-family: "Plus Jakarta Sans";
+    color: rgba(27, 107, 237, 1);
+    font-weight: 600;
+    font-size: 16px;
+}
+
+.active1 {
+    text-decoration: underline !important;
+}
+
+* {
+    font-family: "Plus jakarta Sans";
+}
+
+#section1 {
+    background-image: url("imgs/upe.png");
+    background-size: cover;
+    background-position: center;
+    height: 35vh;
+}
+
+#tagimg {
+    width: 15%;
+}
+footer {
+    background-color: rgb(6, 6, 90);
+}
+footer * {
+    color: white;
+}
+
+footer a {
+    color: rgb(223, 223, 223);
+}
+footer a:hover {
+    color: rgb(185, 185, 185);
+}
+footer a:active {
+    color: rgb(150, 150, 150);
+}
+
+@media (max-width: 1199px) {
+    footer .col1 * {
+        text-align: center;
+    }
+    footer .col1 {
+        align-items: center;
+    }
+    #footerrow p,
+    #footerrow a {
+        width: fit-content;
+    }
+
+    .col5 {
+        align-items: center;
+    }
+    .col5 p {
+        margin-bottom: 0;
+    }
+}
+@media (min-width: 1200px) {
+    .navbar-brand {
+        position: relative;
+        right: 50px;
+    }
+    .apiemus {
+        position: relative;
+        right: 25px;
+    }
+    #footerrow p,
+    #footerrow a {
+        width: fit-content;
+    }
+    .col3 {
+        align-self: end;
+        margin: 0;
+        width: 20%;
+        text-wrap: nowrap;
+    }
+    #footerrow {
+        justify-content: space-around;
+    }
+}
