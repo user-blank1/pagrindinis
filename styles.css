@@ -99,6 +99,7 @@ footer a:hover {
     #btn7 {
         min-width: 267px;
     }
+
     /* MD*/
     #container1 {
         background-position: 70% 0;
@@ -129,8 +130,12 @@ footer a:hover {
     #div4 {
         width: 90vw;
     }
+    #chat {
+        width: 100%;
+        justify-content: center;
+    }
     #div5 {
-        width: 100% !important;
+        width: 80%;
         margin-top: 30px;
     }
     #img2 {
@@ -173,6 +178,9 @@ footer a:hover {
     #btn4 {
         width: 40%;
     }
+    #chat {
+        justify-content: center;
+    }
     #div5 {
         margin-top: 40px;
         width: 75%;
@@ -190,10 +198,7 @@ footer a:hover {
     #div4 {
         width: 90vw;
     }
-    #div5 {
-        width: 100% !important;
-        margin-top: 30px;
-    }
+
     .chats {
         justify-content: space-between;
     }
@@ -211,6 +216,9 @@ footer a:hover {
 }
 
 @media (min-width: 1200px) {
+    #chat {
+        justify-content: start;
+    }
     /* xl*/
     #btn7 {
         min-width: 230px;
