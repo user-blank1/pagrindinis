@@ -16,7 +16,9 @@ body {
     right: 9px;
     color: rgb(138, 138, 138);
 }
-
+.vertical-line {
+    transform: translateY(17%);
+}
 .navbar a:not(.a1) {
     color: black;
     text-decoration: underline;
@@ -76,12 +78,12 @@ footer a:hover {
     background: 0;
 }
 @media (max-width: 768px) {
-    .main > div > div {
+    .main > div > div:first-child {
         width: 100%;
         padding-top: 56.25%;
         position: relative;
     }
-    .main img {
+    .main .imga1 {
         position: absolute;
         top: 0;
         left: 0;
@@ -97,7 +99,7 @@ footer a:hover {
     }
 }
 @media (min-width: 769px) {
-    .main > div > div {
+    .main > div > div:first-child {
         height: 35vh !important;
     }
 
@@ -109,7 +111,7 @@ footer a:hover {
     .main > div {
         width: calc(33% - 12px) !important;
     }
-    .main > div > div {
+    .main > div > div:first-child {
         height: 30vh !important;
     }
 
