@@ -1,0 +1,272 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "Lexend Deca";
+}
+.navbar-nav li a:hover {
+    filter: brightness(0.8);
+}
+#btn1:hover {
+    filter: brightness(0.8);
+}
+#btn3:hover {
+    filter: brightness(0.8);
+}
+#btn4:hover {
+    filter: brightness(0.8);
+}
+#btn1 {
+    background-color: rgba(84, 104, 231, 0.5);
+}
+
+.navbar a:not(.a1) {
+    text-decoration: underline;
+}
+
+.a1 span {
+    font-size: 52px;
+    font-weight: 600;
+}
+
+#dot {
+    position: relative;
+    right: 9px;
+}
+
+#container1 {
+    background: linear-gradient(
+            to right,
+            rgb(34, 0, 112),
+            30%,
+            rgba(21, 0, 112, 0)
+        ),
+        url("imgs/img1.png");
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar * {
+    color: white !important;
+}
+
+.navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+#btn3 {
+    background-color: white;
+    color: gray;
+}
+#btn4 {
+    background-color: rgb(57, 82, 240) !important;
+}
+footer {
+    background-color: rgb(23, 11, 56);
+}
+#btn4 {
+    background-color: gray;
+}
+
+footer h3 {
+    color: rgb(56, 4, 199) !important;
+}
+
+footer a {
+    color: white;
+    font-size: 12px;
+}
+
+footer a:hover {
+    color: gray;
+}
+.purple {
+    color: rgb(138, 138, 138) !important;
+}
+#requestTrialCheckbox:checked ~ #q {
+    display: none;
+}
+#bot-col3 {
+    height: fit-content;
+}
+
+#input3:checked + #r {
+    display: none !important;
+}
+@media (max-width: 768px) {
+    #btn7 {
+        min-width: 267px;
+    }
+    /* MD*/
+    #container1 {
+        background-position: 70% 0;
+    }
+
+    .div2 {
+        padding-left: 0 !important;
+    }
+    #btn3 {
+        width: 100%;
+    }
+    #btn4 {
+        width: 100%;
+    }
+    .button-div {
+        flex-direction: column;
+    }
+    #img2 {
+        min-height: 654px;
+        max-height: 654px;
+        min-width: 1000px;
+    }
+    #div1 {
+        top: 50%;
+        width: 80%;
+        align-self: center;
+    }
+    #div4 {
+        width: 90vw;
+    }
+    #div5 {
+        width: 100% !important;
+        margin-top: 30px;
+    }
+    #img2 {
+        height: 670px;
+        width: 1000px;
+    }
+
+    .chatsdiv {
+        justify-content: center;
+    }
+    #bot-col2 {
+        display: none !important;
+    }
+    #bot-col3 {
+        display: none !important;
+    }
+    #final img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    #final {
+        padding: 40px;
+    }
+
+    footer .d-flex {
+        margin-top: 15px;
+    }
+    #btn7 {
+        max-width: 267px;
+    }
+}
+@media (min-width: 769px) {
+    /* md-lg*/
+    #btn7 {
+        min-width: 268px;
+    }
+    #btn3 {
+        width: 50%;
+    }
+    #btn4 {
+        width: 40%;
+    }
+    #div5 {
+        margin-top: 40px;
+        width: 75%;
+        gap: 30px;
+    }
+    #img2 {
+        min-height: 670px;
+        max-height: 670px;
+        min-width: 1000px;
+        max-width: 1000px;
+    }
+    #div1 {
+        top: 40%;
+    }
+    #div4 {
+        width: 90vw;
+    }
+    #div5 {
+        width: 100% !important;
+        margin-top: 30px;
+    }
+    .chats {
+        justify-content: space-between;
+    }
+    #bot-col2 {
+        display: none !important;
+    }
+
+    #final img {
+        width: 70px !important;
+        height: 70px !important;
+    }
+    #btn7 {
+        max-width: 267px;
+    }
+}
+
+@media (min-width: 1200px) {
+    /* xl*/
+    #btn7 {
+        min-width: 230px;
+    }
+    .navbar-nav li {
+        margin-right: 20px;
+    }
+
+    #div1 p {
+        width: 80%;
+    }
+
+    #btn3 {
+        width: 45%;
+    }
+    #btn4 {
+        width: 35%;
+    }
+    #section2par {
+        width: 90%;
+    }
+
+    #container2 {
+        right: 0;
+        margin-left: 11%;
+    }
+    #div1 {
+        width: 35%;
+        top: 40%;
+    }
+    #div4 {
+        width: unset;
+    }
+    #img2 {
+        min-height: 670px;
+        max-height: 670px;
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .chats {
+        justify-content: center;
+    }
+    #bot-col2 {
+        display: unset !important;
+        height: fit-content;
+    }
+    .chats2 {
+        justify-content: start !important;
+    }
+    #team {
+        position: relative;
+        bottom: 30px;
+    }
+
+    #copyright a {
+        position: relative;
+        top: 50px;
+    }
+}
