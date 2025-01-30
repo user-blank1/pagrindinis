@@ -96,6 +96,9 @@ footer a:hover {
     display: none !important;
 }
 @media (max-width: 768px) {
+    #btn7 {
+        min-width: 267px;
+    }
     /* MD*/
     #container1 {
         background-position: 70% 0;
@@ -161,7 +164,9 @@ footer a:hover {
 }
 @media (min-width: 769px) {
     /* md-lg*/
-
+    #btn7 {
+        min-width: 268px;
+    }
     #btn3 {
         width: 50%;
     }
@@ -207,7 +212,9 @@ footer a:hover {
 
 @media (min-width: 1200px) {
     /* xl*/
-
+    #btn7 {
+        min-width: 230px;
+    }
     .navbar-nav li {
         margin-right: 20px;
     }

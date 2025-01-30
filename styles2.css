@@ -77,6 +77,13 @@ footer a:hover {
 .navbar button:hover {
     background: 0;
 }
+
+.main > div {
+    margin-bottom: 50px;
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+}
+
 @media (max-width: 768px) {
     .main > div > div:first-child {
         width: 100%;
@@ -97,6 +104,10 @@ footer a:hover {
     #btn7 {
         max-width: 267px;
     }
+    .main {
+        margin-right: 10px;
+        margin-left: 10px;
+    }
 }
 @media (min-width: 769px) {
     .main > div > div:first-child {
@@ -106,10 +117,22 @@ footer a:hover {
     #btn7 {
         max-width: 267px;
     }
+
+    .main {
+        justify-content: space-between;
+    }
+    body {
+        padding-right: 70px;
+        padding-left: 70px;
+    }
 }
 @media (min-width: 1200px) {
+    body {
+        padding-right: unset;
+        padding-left: unset;
+    }
     .main > div {
-        width: calc(33% - 12px) !important;
+        width: calc(31% - 12px) !important;
     }
     .main > div > div:first-child {
         height: 30vh !important;
@@ -126,5 +149,11 @@ footer a:hover {
     #copyright a {
         position: relative;
         top: 50px;
+    }
+    .main {
+        justify-content: space-between;
+    }
+    .main div div div div:last-child {
+        text-wrap: nowrap;
     }
 }
