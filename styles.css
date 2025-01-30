@@ -6,7 +6,18 @@ body {
 * {
     font-family: "Lexend Deca";
 }
-
+.navbar-nav li a:hover {
+    filter: brightness(0.8);
+}
+#btn1:hover {
+    filter: brightness(0.8);
+}
+#btn3:hover {
+    filter: brightness(0.8);
+}
+#btn4:hover {
+    filter: brightness(0.8);
+}
 #btn1 {
     background-color: rgba(84, 104, 231, 0.5);
 }
@@ -70,6 +81,9 @@ footer a {
 
 footer a:hover {
     color: gray;
+}
+.purple {
+    color: purple !important;
 }
 @media (max-width: 768px) {
     /* MD*/

@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    font-family: "Lexend Deca";
+}
+
+.a1 span {
+    font-size: 52px;
+    font-weight: 600;
+}
+#dot {
+    position: relative;
+    right: 9px;
+    color: blue;
+}
+
+.navbar a:not(.a1) {
+    color: black;
+    text-decoration: underline;
+}
+
+.navbar a:hover {
+    color: gray;
+}
+
+.navbar button {
+    background-color: rgba(30, 30, 200, 0.5);
+}
+.navbar button:hover {
+    background-color: rgba(30, 30, 200, 1);
+}
+.a1:not(.a2) {
+    position: relative;
+    right: 12px;
+}
+
+img {
+    object-fit: cover;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+footer {
+    background-color: rgb(23, 11, 56);
+}
+#btn4 {
+    background-color: gray;
+}
+
+footer h3 {
+    color: rgb(56, 4, 199) !important;
+}
+
+footer a {
+    color: white;
+    font-size: 12px;
+}
+
+footer a:hover {
+    color: gray;
+}
+@media (max-width: 768px) {
+    .main > div > div {
+        max-height: 40vh;
+    }
+    footer .d-flex {
+        margin-top: 15px;
+    }
+    #btn7 {
+        max-width: 267px;
+    }
+}
+@media (min-width: 769px) {
+    .main > div > div {
+        height: 35vh !important;
+    }
+    #btn7 {
+        max-width: 267px;
+    }
+}
+@media (min-width: 1200px) {
+    .main > div {
+        width: calc(33% - 12px) !important;
+    }
+    .main > div > div {
+        height: 30vh !important;
+    }
+
+    #last-item {
+        display: none;
+    }
+    #team {
+        position: relative;
+        bottom: 30px;
+    }
+
+    #copyright a {
+        position: relative;
+        top: 50px;
+    }
+}
