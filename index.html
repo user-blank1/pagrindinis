@@ -52,7 +52,9 @@
                                 class="navbar-nav ms-auto mb-2 mb-lg-0 gap-lg-5"
                             >
                                 <li class="nav-item">
-                                    <a class="nav-link" href="#">Product</a>
+                                    <a class="nav-link fw-bold" href="#"
+                                        >Product</a
+                                    >
                                 </li>
                                 <li class="nav-item">
                                     <a class="nav-link" href="pag2.html"
@@ -68,6 +70,8 @@
                                 <button
                                     class="border-0 rounded-4 px-4"
                                     id="btn1"
+                                    data-bs-toggle="modal"
+                                    data-bs-target="#exampleModal"
                                 >
                                     <a class="nav-link getaccess" href="#"
                                         >Get Access</a
@@ -86,8 +90,20 @@
                         collaborate and track project progress.
                     </p>
                     <div class="d-flex gap-2 button-div">
-                        <button class="btn" id="btn3">Email</button>
-                        <button class="btn text-white" id="btn4">
+                        <button
+                            class="btn"
+                            id="btn3"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal2"
+                        >
+                            Email
+                        </button>
+                        <button
+                            class="btn text-white"
+                            id="btn4"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal"
+                        >
                             Get early-access
                         </button>
                     </div>
@@ -484,8 +500,7 @@
                             Vestibulum eu quam nec neque pellentesque efficitur
                             id eget nisl. Proin porta est convallis lacus
                             blandit pretium sed non enim. Maecenas lacinia non
-                            orci at aliquam. Donec finibus, urna bibendum
-                            ultricies laoreet.
+                            orci at aliquam.
                         </p>
                         <div class="d-flex gap-4">
                             <img src="imgs/img5.png" class="w-25 h-50" />
@@ -577,6 +592,8 @@
                         <button
                             id="btn7"
                             class="btn btn-secondary mt-3 d-flex justify-content-between order-xl-5 order-2"
+                            data-bs-toggle="modal"
+                            data-bs-target="#exampleModal2"
                         >
                             <p class="m-0">Email</p>
                             <svg
@@ -596,7 +613,10 @@
                     </div>
                 </div>
                 <div id="copyright" class="position-relative mt-xl-0 mt-5">
-                    <a href="#" class="icon-link icon-link-hover mb-5">
+                    <a
+                        href="#"
+                        class="icon-link icon-link-hover mb-5 text-decoration-none"
+                    >
                         <svg
                             xmlns="http://www.w3.org/2000/svg"
                             width="16"
@@ -614,6 +634,149 @@
                 </div>
             </div>
         </footer>
+        <!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals-->
+        <!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals-->
+        <!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals--><!--Modals-->
+        <div
+            class="modal fade"
+            id="exampleModal"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            Order Trial
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="modaldiv1" class="collapse show">
+                            <label for="input1">Email Address</label><br />
+                            <input
+                                class="w-75"
+                                id="input1"
+                                type="email"
+                                placeholder="Enter your email address"
+                            /><br /><br />
+                            <label for="input2">Company</label><br />
+                            <input
+                                class="w-75"
+                                id="input2"
+                                type="text"
+                                placeholder="Enter your company name"
+                            />
+                        </div>
+                        <div id="modaldiv2" class="collapse">
+                            <h3>Thank you for your order.</h3>
+                            <p>Will get back to you soon.</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <input
+                            type="checkbox"
+                            id="requestTrialCheckbox"
+                            class="d-none"
+                        />
+
+                        <button
+                            type="button"
+                            class="btn btn-secondary collapse"
+                            data-bs-dismiss="modal"
+                            data-bs-toggle="collapse"
+                            id="closebtn"
+                        >
+                            Close
+                        </button>
+
+                        <label
+                            id="q"
+                            for="requestTrialCheckbox"
+                            class="btn btn-primary"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#modaldiv1, #modaldiv2, #closebtn"
+                        >
+                            Request Trial
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--modal-->
+        <div
+            class="modal fade"
+            id="exampleModal2"
+            tabindex="-1"
+            aria-labelledby="exampleModalLabel"
+            aria-hidden="true"
+        >
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">
+                            Send us an email
+                        </h5>
+                        <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                        ></button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="modal3" class="collapse show">
+                            <label for="emailinput"
+                                >Enter your email address</label
+                            ><br />
+                            <input
+                                id="emailinput"
+                                type="email"
+                                class="w-75"
+                                placeholder="your email address"
+                            /><br /><br />
+                            <label for="textarea1">Your message</label><br />
+                            <textarea
+                                class="w-100"
+                                rows="10"
+                                id="textarea1"
+                            ></textarea>
+                        </div>
+                        <div id="modal4" class="collapse">
+                            <h3>We have received your message</h3>
+                            <p>Thank you for contacting us</p>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button
+                            type="button"
+                            class="btn btn-secondary"
+                            data-bs-dismiss="modal"
+                        >
+                            Close
+                        </button>
+                        <input id="input3" type="checkbox" class="d-none" />
+                        <label
+                            id="r"
+                            for="input3"
+                            class="btn btn-primary"
+                            data-bs-toggle="collapse"
+                            data-bs-target="#modal3, #modal4"
+                        >
+                            Send
+                        </label>
+                    </div>
+                </div>
+            </div>
+        </div>
+
         <script src="bootstrap-5.3.3/dist/js/bootstrap.bundle.min.js"></script>
     </body>
 </html>

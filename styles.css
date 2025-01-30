@@ -85,6 +85,16 @@ footer a:hover {
 .purple {
     color: purple !important;
 }
+#requestTrialCheckbox:checked ~ #q {
+    display: none;
+}
+#bot-col3 {
+    height: fit-content;
+}
+
+#input3:checked + #r {
+    display: none !important;
+}
 @media (max-width: 768px) {
     /* MD*/
     #container1 {
@@ -185,9 +195,7 @@ footer a:hover {
     #bot-col2 {
         display: none !important;
     }
-    #bot-col3 {
-        height: 80%;
-    }
+
     #final img {
         width: 70px !important;
         height: 70px !important;

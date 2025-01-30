@@ -61,9 +61,33 @@ footer a {
 footer a:hover {
     color: gray;
 }
+#requestTrialCheckbox:checked ~ #q {
+    display: none;
+}
+#input3:checked + #r {
+    display: none !important;
+}
+
+.navbar .btn2 {
+    background: 0;
+}
+
+.navbar button:hover {
+    background: 0;
+}
 @media (max-width: 768px) {
     .main > div > div {
-        max-height: 40vh;
+        width: 100%;
+        padding-top: 56.25%;
+        position: relative;
+    }
+    .main img {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
     }
     footer .d-flex {
         margin-top: 15px;
@@ -76,6 +100,7 @@ footer a:hover {
     .main > div > div {
         height: 35vh !important;
     }
+
     #btn7 {
         max-width: 267px;
     }
