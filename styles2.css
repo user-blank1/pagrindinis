@@ -14,7 +14,7 @@ body {
 #dot {
     position: relative;
     right: 9px;
-    color: blue;
+    color: rgb(138, 138, 138);
 }
 
 .navbar a:not(.a1) {

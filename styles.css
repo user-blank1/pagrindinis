@@ -61,7 +61,7 @@ body {
     color: gray;
 }
 #btn4 {
-    background-color: rgba(84, 104, 231, 1);
+    background-color: rgb(57, 82, 240) !important;
 }
 footer {
     background-color: rgb(23, 11, 56);
@@ -83,7 +83,7 @@ footer a:hover {
     color: gray;
 }
 .purple {
-    color: purple !important;
+    color: rgb(138, 138, 138) !important;
 }
 #requestTrialCheckbox:checked ~ #q {
     display: none;
