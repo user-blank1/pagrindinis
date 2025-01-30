@@ -121,10 +121,6 @@ footer a:hover {
     .main {
         justify-content: space-between;
     }
-    body {
-        padding-right: 70px;
-        padding-left: 70px;
-    }
 }
 @media (min-width: 1200px) {
     body {
